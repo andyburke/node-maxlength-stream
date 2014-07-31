@@ -14,7 +14,7 @@ npm install maxlength-stream
 # Usage
 
 ```javascript
-var Maxlength = require( '../index.js' );
+var Maxlength = require( 'maxlength-stream' );
 
 // create a stream that has a max length of 5
 var maxlength = new Maxlength( {
