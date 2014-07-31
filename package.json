@@ -1,0 +1,18 @@
+{
+  "name": "maxlength-stream",
+  "description": "A simple transform stream that limits the max length of the stream.",
+  "author": "Andy Burke <aburke@bitflood.org>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyburke/node-maxlength-stream.git"
+  },
+  "main": "index.js",
+  "engine": "node >= 0.10.0",
+  "devDependencies": {
+    "expresso": "^0.9.2"
+  },
+  "scripts": {
+    "test": "node_modules/expresso/bin/expresso tests/*"
+  }
+}
